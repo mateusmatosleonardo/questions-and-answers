@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--backgroundColor);
+    font-family: var(--font);
+}
+
+
+/* === variables === */
+:root{
+    --backgroundColor: #b0e0e6;
+    --font:  'Poppins', sans-serif;
+}
