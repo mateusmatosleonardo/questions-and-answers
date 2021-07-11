@@ -14,19 +14,24 @@ for (var i = 0; i < elements.length; i++) {
                 els[n].disable = true;
             }
 
+            alert("Correct ✔️")
+
         }else if(pronounced == "incorrect"){
 
             let parentNode = e.target.parentNode;
             parentNode.style.backgroundColor = "red";
 
+            alert("try again 🤦‍♂️");
+
             let els = parentNode.parentNode.querySelectorAll('[type=radio]');
 
             for(var n=0; n < els.length; n++){
-                els[n].disable = true;
+                els[n].disable = false;
             }
 
             let correct = parentNode.parentNode.querySelector('[valeu = correct]');
             correct.parentNode.style.backgroundColor = 'green';
+
 
         }
     })

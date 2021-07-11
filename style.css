@@ -5,6 +5,19 @@
     font-family: var(--font);
 }
 
+.titleapp{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.title{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.answer{
+    text-align: center;
+}
 
 /* === variables === */
 :root{
