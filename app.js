@@ -1,0 +1,1 @@
+var elements = document.querySelectorAll('[type=radio]');
