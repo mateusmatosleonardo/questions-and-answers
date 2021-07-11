@@ -8,7 +8,7 @@ for (var i = 0; i < elements.length; i++) {
             let el = e.target.previousElementSibling.style.backgroundColor = "green";
 
         }else if(pronounced == "incorrect"){
-            alert("errou a pergunta");
+            let el = e.target.previousElementSibling.style.backgroundColor = "red";
         }
     })
 }
