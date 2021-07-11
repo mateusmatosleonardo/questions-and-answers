@@ -1,5 +1,7 @@
 var elements = document.querySelectorAll('[type=radio]');
 
-// chamando função para teste
-
-alert(elements.length);
+for (var i = 0; i < elements.length; i++) {
+    elements[i].addEventListener('change', () => {
+    
+    })
+}
